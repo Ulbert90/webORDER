@@ -1,0 +1,42 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/appetizing-spaghetti-italian-pasta-with-tomato-sauce_1150-20331.jpg?w=740&t=st=1701414265~exp=1701414865~hmac=9aae3d8e4896c0cabfb72f5410815b339c95c3d83524a4cd0d958705c49036f4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backdrop-filter: blur(4px); /* Adjust the blur strength as needed */
+}
+
+.blur {
+  filter: blur(5px);
+}
+.container {
+  text-align: center;
+}
+.maharani {
+  color: antiquewhite;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2rem;
+}
+h1 {
+  font-family: "April";
+}
+
+.kolom {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.kolom th,
+.kolom td {
+  color: azure;
+  border: 1px solid rgb(255, 247, 2);
+  text-align: left;
+  padding: 8px;
+  border-radius: 10%;
+}
+
+.menu {
+  background-color: white;
+  border-radius: 15px;
+}
